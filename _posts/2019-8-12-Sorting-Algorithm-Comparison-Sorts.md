@@ -172,7 +172,7 @@ public static void shellSort(int[] arr) {
 
 下列式子是 sift down 操作所需要的上限(worst-case):
 
-$$ 
+$$
 \sum^{h}_{i=1}\ \sum^{}_{nodes\:at\:hight\:i}{i} = \sum^{h}_{i=1}{i*2^{h-i}} = 2^{h+1}-h-2
 $$
 
@@ -362,14 +362,13 @@ private static void merge(int[] left, int[] right, int[] arr) {
 public static void mergeSortBottomUp(int[] arr) {
     int[] temp = new int[arr.length];
     //对从长度为2开始的数组进行排序
-    for (int i = 2; i <= arr.length; i *= 2) {
+    for (int i = 2; i < (2 * arr.length); i *= 2) {
         //对每一次排序而言，对当前数组对半分，进行排序
-        for (int j = 0; j <= (arr.length - 1) / i; j++) {
-            //数组左中右index，等同于将数组分成了左右两半，
-            //对最后一个数组，需要判断是否超过原数组下标
+        for (int j = 0; j < (arr.length + i) / i; j++) {
+            //数组左中右index，等同于将数组分成了左右两半，对最后一个数组，需要判断是否超过原数组下标
             int left = i * j;
             int mid = Math.min(left + i / 2, arr.length);
-            int right = Math.min(left + i, arr.length);
+            int right = Math.min(i * (j + 1), arr.length);
             //对左右数组进行排序操作，等同于Top-down里的merge操作
             int leftIndex = left, rightIndex = mid, mergedIndex = left;
             while (leftIndex < mid && rightIndex < right) {
@@ -380,11 +379,9 @@ public static void mergeSortBottomUp(int[] arr) {
                 }
             }
             if (leftIndex == mid) {
-                System.arraycopy(arr, rightIndex, temp, mergedIndex, 
-                                    right - rightIndex);
+                System.arraycopy(arr, rightIndex, temp, mergedIndex, right - rightIndex);
             } else {
-                System.arraycopy(arr, leftIndex, temp, mergedIndex, 
-                                    mid - leftIndex);
+                System.arraycopy(arr, leftIndex, temp, mergedIndex, mid - leftIndex);
             }
             //注释掉这句话可以看具体排序过程
             //System.out.println(Arrays.toString(temp));
