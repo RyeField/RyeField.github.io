@@ -6,9 +6,11 @@ tags:
   - Algorithm
   - Java
   - Sort
+classes: wide
 toc: true
 toc_sticky: true
 ---
+
 
 # Sorting Algorithm - Comparison Sorts
 
