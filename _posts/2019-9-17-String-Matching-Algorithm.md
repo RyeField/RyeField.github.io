@@ -23,7 +23,7 @@ toc_sticky: true
 
 ### 2.算法表现
 Text: 长度 N; Pattern: 长度 M; <br>
-Worst Case: 总共比较次数为 ((N-M)+1)*M <br>
+Worst Case: 总共比较次数为 ((N-M)+1)\*M <br>
 Average: *Θ(N \* M)* <br>
 
 ```java
