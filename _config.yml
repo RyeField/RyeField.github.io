@@ -21,9 +21,9 @@ title                    : "Jian Shi's Blog"
 title_separator          : "-"
 name                     : "Jian Shi"
 description              : "A Blog Record My Tech Life"
-url                      : https://ryefield.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://forge-jian.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : ryefield/ryefield.github.io # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : forge-jian/forge-jian.github.io # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : "Jian Shi's Blog" # overrides the website title displayed in the masthead, use " " for no title
@@ -111,14 +111,14 @@ author:
   avatar           : "/assets/images/2018_MelZoo_Photo.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Developer"
   location         : "Hangzhou"
-  # email            : "shijianhzchina@gmail.com"
+  # email            : "jianshi.dev@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: mailto:shijianhzchina@gmail.com
+      url: mailto:jianshi.codes@gmail.com
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://ryefield.github.io"
+      url: "https://forge-jian.github.io"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"
@@ -127,7 +127,7 @@ author:
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/RyeField"
+      url: "https://github.com/forge-jian"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
@@ -143,10 +143,10 @@ footer:
       # url:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: mailto:shijianhzchina@gmail.com
+      url: mailto:jianshi.codes@gmail.com
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/RyeField"
+      url: "https://github.com/forge-jian"
     # - label: "GitLab"
     #   icon: "fab fa-fw fa-gitlab"
       # url:
