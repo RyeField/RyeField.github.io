@@ -1,5 +1,5 @@
-# RyeField.github.io
-Personal blog hosted in GitHub [https://ryefield.github.io](https://ryefield.github.io/)
+# forge-jian.github.io
+Personal blog hosted in GitHub [https://forge-jian.github.io](https://forge-jian.github.io/)
 
 # Development Environment
 1. Fetch and update bundled gems
